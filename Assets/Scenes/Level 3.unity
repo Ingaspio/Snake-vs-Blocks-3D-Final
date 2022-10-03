@@ -708,6 +708,10 @@ PrefabInstance:
       propertyPath: GameOverPanel
       value: 
       objectReference: {fileID: 569226896}
+    - target: {fileID: 3358647848848153962, guid: f3bdf26cc1806fb4cb8573bd2581d50c, type: 3}
+      propertyPath: IncreasedSpeed
+      value: -0.0001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3bdf26cc1806fb4cb8573bd2581d50c, type: 3}
 --- !u!1 &408225529
@@ -7045,7 +7049,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136206792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -142.67645, y: 251.47304, z: 20.114674}
+  m_LocalPosition: {x: -157.93, y: 251.47304, z: 20.114674}
   m_LocalScale: {x: 4, y: 5, z: 11.599999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7085,9 +7089,9 @@ MonoBehaviour:
   blockWallSpawn: {fileID: 3255819443918457890, guid: 95eba5273cac3e04f8d7339afa4c3d16, type: 3}
   spawnPosition: {fileID: 1158156800}
   x: 20
-  distanceBetweenBlocks: 20
+  distanceBetweenBlocks: 18
   blockWallsQuantity: 0
-  blockWallsEnough: 13
+  blockWallsEnough: 16
 --- !u!4 &1158156800
 Transform:
   m_ObjectHideFlags: 0
@@ -7124,7 +7128,7 @@ MonoBehaviour:
   RightZ: {x: 0, y: 0, z: 10}
   z: 0
   FoodQuantity: 0
-  FoodQuantityEnough: 30
+  FoodQuantityEnough: 25
 --- !u!1 &1192391713
 GameObject:
   m_ObjectHideFlags: 0
