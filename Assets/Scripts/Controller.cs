@@ -7,11 +7,12 @@ public class Controller : MonoBehaviour
 {
     float Hor;
     public float Speed = 5;
+    public float IncreasedSpeed = 0.0001f;
     public Rigidbody Rigidbody;
 
     void FixedUpdate()
     {
-        Speed += 0.0001f;
+        Speed += IncreasedSpeed;
         transform.position += transform.forward * Speed * Time.deltaTime;
 
         Hor = Input.GetAxis("Horizontal");

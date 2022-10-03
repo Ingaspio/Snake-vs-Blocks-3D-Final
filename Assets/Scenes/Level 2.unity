@@ -879,6 +879,10 @@ PrefabInstance:
       propertyPath: GameOverPanel
       value: 
       objectReference: {fileID: 569226896}
+    - target: {fileID: 3358647848848153962, guid: f3bdf26cc1806fb4cb8573bd2581d50c, type: 3}
+      propertyPath: IncreasedSpeed
+      value: 0.0002
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3bdf26cc1806fb4cb8573bd2581d50c, type: 3}
 --- !u!1 &359129536
@@ -1131,7 +1135,6 @@ Transform:
   - {fileID: 1339738319}
   - {fileID: 347683527}
   - {fileID: 1158156800}
-  - {fileID: 1443525066}
   - {fileID: 1136206797}
   - {fileID: 1237018750}
   m_Father: {fileID: 0}
@@ -2313,7 +2316,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 507449209}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1158156798
 GameObject:
@@ -2348,9 +2351,9 @@ MonoBehaviour:
   blockWallSpawn: {fileID: 3255819443918457890, guid: 95eba5273cac3e04f8d7339afa4c3d16, type: 3}
   spawnPosition: {fileID: 1158156800}
   x: 20
-  distanceBetweenBlocks: 20
+  distanceBetweenBlocks: 18
   blockWallsQuantity: 0
-  blockWallsEnough: 13
+  blockWallsEnough: 14
 --- !u!4 &1158156800
 Transform:
   m_ObjectHideFlags: 0
@@ -2387,7 +2390,7 @@ MonoBehaviour:
   RightZ: {x: 0, y: 0, z: 10}
   z: 0
   FoodQuantity: 0
-  FoodQuantityEnough: 30
+  FoodQuantityEnough: 25
 --- !u!1 &1192391713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2755,7 +2758,7 @@ RectTransform:
   - {fileID: 569226893}
   - {fileID: 23346903}
   m_Father: {fileID: 507449209}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2789,37 +2792,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470749645}
   m_Enabled: 1
---- !u!1 &1443525065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1443525066}
-  m_Layer: 0
-  m_Name: Ruler
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1443525066
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443525065}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -141.68646, y: 249.07304, z: 19.064674}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 507449209}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1612743597
 GameObject:
   m_ObjectHideFlags: 0
